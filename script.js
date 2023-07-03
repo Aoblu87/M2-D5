@@ -43,7 +43,6 @@
  invertita (es.: EPICODE => EDOCIPE).
 */
 
-// function reverseString()
 
 
 
@@ -59,11 +58,15 @@
 */
 
 
-// function upperFirst(){
-//     if (a==="")
-//     a.toUpperCase()
+// function upperFirst(a){
+//     a=[]
+//    for (let i = 0; i < a.length; i++) {
+//     const element = a[i];
+//     return console.log(element[0])
+//    }
 // }
-
+// let stringa= 'casa'
+// console.log(upperFirst(stringa))
 
 
 
@@ -132,7 +135,16 @@
   ma se la stringa fornita comincia proprio con "code" allora deve ritornarla senza modifiche.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+
+let stringa= 'palla'
+function codify(a){
+    let aggiungi= 'code'
+    if(a==='code')
+}
+
+let aggiungi= 'code'
+
+console.log(aggiungi.concat(stringa))
 
 
 
@@ -158,8 +170,17 @@
 
 
 
-/* ESERCIZIO 5
+/* ESERCIZIO 5 FATTO
  Scrivi una funzione chiamata "cutString", che accetta una stringa come parametro 
  e la ritorna senza il primo e l'ultimo carattere.
 */
+
+
+// let parola = 'palla'
+// function cutString(a) {
+//     let ultimoCarattere = a.lastIndexOf()
+//     return a.slice(1, ultimoCarattere)
+
+// }
+// console.log(cutString(parola))
 
