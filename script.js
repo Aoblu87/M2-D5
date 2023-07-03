@@ -52,21 +52,20 @@
 
 
 
-/* ESERCIZIO 4
+/* ESERCIZIO 4 PROBLEMA STAMPA ULTIMO CARATTERE ASSENTE
  Scrivi una funzione chiamata "upperFirst", che accetta una stringa come parametro e la ritorna rendendo
   maiuscola ogni lettera iniziale di ogni parola.
 */
 
-
-// function upperFirst(a){
-//     a=[]
-//    for (let i = 0; i < a.length; i++) {
-//     const element = a[i];
-//     return console.log(element[0])
-//    }
-// }
 // let stringa= 'casa'
-// console.log(upperFirst(stringa))
+//  let ultimoCarattere= stringa.lastIndexOf()
+//  let senzaIniziale= stringa.slice(1, ultimoCarattere)
+
+//     console.log(stringa[0].toUpperCase()+ senzaIniziale)
+
+
+
+
 
 
 
@@ -129,23 +128,26 @@
 
 
 
-/* ESERCIZIO 3
+/* ESERCIZIO 3  FATTO, MA VALORE UNDEFINED DA RIMUOVERE
  Scrivi una funzione chiamata "codify" che accetta una stringa come parametro.
  La funzione deve aggiungere la parola "code" all'inizio della stringa fornita e ritornare il risultato,
   ma se la stringa fornita comincia proprio con "code" allora deve ritornarla senza modifiche.
 */
 
 
-let stringa= 'palla'
-function codify(a){
-    let aggiungi= 'code'
-    if(a==='code')
-}
+// let stringa = 'coderotte'
 
-let aggiungi= 'code'
+// function codify(a) {
+//     let aggiungi = 'code'
+//     if (a[0] === 'c' && a[1] === 'o' && a[2] === 'd' && a[3] === 'e') {
+//         return console.log(a)
 
-console.log(aggiungi.concat(stringa))
-
+//     } else {
+        
+//         return console.log(aggiungi.concat(a))
+//     }
+// }
+// console.log(codify(stringa))
 
 
 
@@ -171,7 +173,7 @@ console.log(aggiungi.concat(stringa))
 
 
 /* ESERCIZIO 5 FATTO
- Scrivi una funzione chiamata "cutString", che accetta una stringa come parametro 
+ Scrivi una funzione chiamata "cutString", che accetta una stringa come parametro
  e la ritorna senza il primo e l'ultimo carattere.
 */
 
