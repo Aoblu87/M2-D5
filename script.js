@@ -38,30 +38,48 @@
 
 
 
-/* ESERCIZIO 3
+/* ESERCIZIO 3 FATTO; MA PROBLEMA RISULTATO UNDEFINED ALLA FINE
  Scrivi una funzione chiamata "reverseString", che accetta una stringa come parametro e la ritorna
  invertita (es.: EPICODE => EDOCIPE).
 */
+// let stringa='EPICODE'
+// function reverseString(a){
+// let arrayString= a.split('')
+
+// let string1= arrayString.slice(0,4)
+// string1=string1.reverse()
+// let string2=arrayString.slice(4)
+// string2=string2.reverse()
+// console.log((string2.concat(string1)).join(''))
+// }
 
 
 
 
 
+// console.log(reverseString('cielo'))
 
 
 
 
 
-/* ESERCIZIO 4 PROBLEMA STAMPA ULTIMO CARATTERE ASSENTE
+/* ESERCIZIO 4 
  Scrivi una funzione chiamata "upperFirst", che accetta una stringa come parametro e la ritorna rendendo
   maiuscola ogni lettera iniziale di ogni parola.
 */
 
 // let stringa= 'casa'
-//  let ultimoCarattere= stringa.lastIndexOf()
-//  let senzaIniziale= stringa.slice(1, ultimoCarattere)
+// function upperFirst(a){
+//   // let arrayString=a.split()
+//   let senzaIniziale= a.slice(1)
+//   return a[0].toUpperCase()+ senzaIniziale
+ 
 
-//     console.log(stringa[0].toUpperCase()+ senzaIniziale)
+// }
+
+//   console.log(upperFirst(stringa))
+
+    
 
 
 
@@ -78,17 +96,13 @@
 // Math
 
 // function giveMeRandom(n){
-//     n= []
-//     for (let i = 0; i < n.length; i++) {
-//         const element = n[i];
-
-
-//     }
+//     let array= n.split()
+//    return Math.floor(Math.random(1,10))
 
 
 // }
 
-
+// console.log(giveMeRandom())
 
 
 
@@ -112,7 +126,7 @@
  Scrivi una funzione chiamata "crazyDiff" che calcola la differenza assoluta tra un numero fornito e 19.
  Se il valore calcolato è più grande di 19, la funzione deve tornare tale risultato moltiplicato per 3.
 */
-
+// CERCARE METODO PER LA DIFFERENZA ASSOLUTA
 // function crazyDiff(a) {
 //     const num = 19
 //     let result = a - 19
@@ -128,7 +142,7 @@
 
 
 
-/* ESERCIZIO 3  FATTO, MA VALORE UNDEFINED DA RIMUOVERE
+/* ESERCIZIO 3  FATTO
  Scrivi una funzione chiamata "codify" che accetta una stringa come parametro.
  La funzione deve aggiungere la parola "code" all'inizio della stringa fornita e ritornare il risultato,
   ma se la stringa fornita comincia proprio con "code" allora deve ritornarla senza modifiche.
@@ -140,11 +154,11 @@
 // function codify(a) {
 //     let aggiungi = 'code'
 //     if (a[0] === 'c' && a[1] === 'o' && a[2] === 'd' && a[3] === 'e') {
-//         return console.log(a)
+//         return a
 
 //     } else {
         
-//         return console.log(aggiungi.concat(a))
+//         return aggiungi.concat(a)
 //     }
 // }
 // console.log(codify(stringa))
