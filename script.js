@@ -38,7 +38,7 @@
 
 
 
-/* ESERCIZIO 3 FATTO; MA PROBLEMA RISULTATO UNDEFINED ALLA FINE
+/* ESERCIZIO 3 FATTO
  Scrivi una funzione chiamata "reverseString", che accetta una stringa come parametro e la ritorna
  invertita (es.: EPICODE => EDOCIPE).
 */
@@ -79,6 +79,16 @@
 
 //   console.log(upperFirst(stringa))
 
+
+// let stringa= 'casa'
+// function 
+// const arrayString=a.split()
+// for (let i = 0; i  < arrayString.length; i++) {
+//   const element = arrayString[i];
+
+  
+// }
+
     
 
 
@@ -96,13 +106,12 @@
 // Math
 
 // function giveMeRandom(n){
-//     let array= n.split()
-//    return Math.floor(Math.random(1,10))
-
+//    return Math.floor(Math.random(n))
+ 
 
 // }
 
-// console.log(giveMeRandom())
+// console.log(giveMeRandom(5))
 
 
 
