@@ -35,6 +35,17 @@
 // }
 // console.log(boundary(25))
 
+// //SECONDA VERSIONE
+// function boundary(a) {
+
+//     return  (a >= 20 && a <= 100 || a === 400)
+  
+// }
+// console.log(boundary(25))
+
+
+
+
 
 
 
@@ -55,6 +66,21 @@
 
 
 
+//ULTERIORE VERSIONE
+
+// function reverseString(a){
+
+// let stringa=""
+
+// for (let i = a.length-1; i>=0; i--) {
+
+//   stringa+= a[i]
+
+// }
+//   return stringa
+// }
+
+
 
 
 // console.log(reverseString('cielo'))
@@ -68,11 +94,23 @@
   maiuscola ogni lettera iniziale di ogni parola.
 */
 
-// let stringa= 'casa'
+// let stringa= 'la casa di anna'
 // function upperFirst(a){
-//   // let arrayString=a.split()
-//   let senzaIniziale= a.slice(1)
-//   return a[0].toUpperCase()+ senzaIniziale
+//  let array= a.split(' ')
+//   let result=''
+  
+
+//   for (let i = 0; i < array.length; i++) {
+// //for(const variabile of array)   VARIABILE DI CICLO FOR
+// const element= array [i]
+
+// const firstLetter= element[0].toUpperCase()
+// const senzaIniziale= element.slice(1)
+  
+//     result+=firstLetter+senzaIniziale+' '
+//   }
+//   return result.slice(0, result.length-1)
+
  
 
 // }
@@ -80,14 +118,6 @@
 //   console.log(upperFirst(stringa))
 
 
-// let stringa= 'casa'
-// function 
-// const arrayString=a.split()
-// for (let i = 0; i  < arrayString.length; i++) {
-//   const element = arrayString[i];
-
-  
-// }
 
     
 
@@ -108,7 +138,7 @@
 //   const array=[]
 
 //   for (let i = 0; i <=n; i++) {
-//     array.push(Math.floor(Math.random()*(10+1)))
+//     array.push(Math.round(Math.random()*10))
     
 //   } return array
 // }
@@ -135,35 +165,46 @@
  Scrivi una funzione chiamata "crazyDiff" che calcola la differenza assoluta tra un numero fornito e 19.
  Se il valore calcolato è più grande di 19, la funzione deve tornare tale risultato moltiplicato per 3.
 */
-// CERCARE METODO PER LA DIFFERENZA ASSOLUTA
+
+//Mth.abs  differenza asssoluta
+
+
 // function crazyDiff(a) {
 //     const num = 19
+//     let result=0
+//     if (num>a){
+//       result=num-a
+//     }else{
+//       result=(a-num)
+//     }
 
-//     let result = a - 19
-//     if (result >= 19) {
-//         return result * 3
-
-//     } return result
+    
+//     if (result > 19) {
+//         result =result* 3
+//     }
+    
+    
+//     return result
 // }
-// console.log(crazyDiff(30))
+// console.log(crazyDiff(5))
 
 
 
 
 
 
-/* ESERCIZIO 3  FATTO
+/* ESERCIZIO 3  DA COMPLETARE
  Scrivi una funzione chiamata "codify" che accetta una stringa come parametro.
  La funzione deve aggiungere la parola "code" all'inizio della stringa fornita e ritornare il risultato,
   ma se la stringa fornita comincia proprio con "code" allora deve ritornarla senza modifiche.
 */
 
 
-// let stringa = 'coderotte'
+// let stringa = 'code casa'
 
 // function codify(a) {
 //     let aggiungi = 'code'
-//     if (a[0] === 'c' && a[1] === 'o' && a[2] === 'd' && a[3] === 'e') {
+//     if (a[0] == 'code') {
 //         return a
 
 //     } else {
@@ -185,6 +226,7 @@
 
 
 // function check3and7(a) {
+//   if(a>=0&&)
 //     return (a % 3 === 0) || (a % 7 === 0)
 
 // }
@@ -204,8 +246,8 @@
 
 // let parola = 'palla'
 // function cutString(a) {
-//     let ultimoCarattere = a.lastIndexOf()
-//     return a.slice(1, ultimoCarattere)
+  
+//     return a.slice(1, a.length-1)
 
 // }
 // console.log(cutString(parola))
