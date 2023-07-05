@@ -5,14 +5,13 @@
 */
 
 // function crazySum(a, b) {
+//   let result=0
 //     if (a !== b) {
-//         let result = a + b
-//         return result
+//         result = a + b
 //     } else {
 //         result = (a + b) * 3
-//         return result
 
-//     }
+//     }return result
 // }
 // console.log(crazySum(5, 5))
 
@@ -27,13 +26,14 @@
 */
 
 // function boundary(a) {
-//     if (a >= 20 && a <= 100 || a === 400)
-//         return true
-//     else {
-//         return false
+
+//     if (a >= 20 && a <= 100 || a === 400){
+//       return true
+//     }
+//     else { return false
 //     }
 // }
-// console.log(boundary(200))
+// console.log(boundary(25))
 
 
 
@@ -98,22 +98,22 @@
 
 
 
-/* ESERCIZIO 5
+/* ESERCIZIO 5 FATTO
  Scrivi una funzione chiamata "giveMeRandom", che accetta come parametro un numero chiamato n e ritorna un
  array contenente n numeri random contenuti tra 0 e 10.
 */
 
-// Math
 
-// function giveMeRandom(n){
-//    return Math.floor(Math.random(n))
- 
+function giveMeRandomn(n){
+  const array=[]
 
-// }
+  for (let i = 0; i <=n; i++) {
+    array.push(Math.floor(Math.random()*(10+1)))
+    
+  } return array
+}
 
-// console.log(giveMeRandom(5))
-
-
+console.log(giveMeRandomn(10))
 
 //EXTRA:
 /* ESERCIZIO 1  FATTO
@@ -138,6 +138,7 @@
 // CERCARE METODO PER LA DIFFERENZA ASSOLUTA
 // function crazyDiff(a) {
 //     const num = 19
+  
 //     let result = a - 19
 //     if (result >= 19) {
 //         return result * 3
