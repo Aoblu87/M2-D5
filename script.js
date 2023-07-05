@@ -104,16 +104,16 @@
 */
 
 
-function giveMeRandomn(n){
-  const array=[]
+// function giveMeRandomn(n){
+//   const array=[]
 
-  for (let i = 0; i <=n; i++) {
-    array.push(Math.floor(Math.random()*(10+1)))
+//   for (let i = 0; i <=n; i++) {
+//     array.push(Math.floor(Math.random()*(10+1)))
     
-  } return array
-}
+//   } return array
+// }
 
-console.log(giveMeRandomn(10))
+// console.log(giveMeRandomn(10))
 
 //EXTRA:
 /* ESERCIZIO 1  FATTO
@@ -138,7 +138,7 @@ console.log(giveMeRandomn(10))
 // CERCARE METODO PER LA DIFFERENZA ASSOLUTA
 // function crazyDiff(a) {
 //     const num = 19
-  
+
 //     let result = a - 19
 //     if (result >= 19) {
 //         return result * 3
